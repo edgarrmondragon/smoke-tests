@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go
-        uses: actions/setup-go@4d34df0c2316fe8122ab82dc22947d607c0c91f9
+        uses: actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe
       - name: Setup Ruby
         uses: actions/setup-ruby@5f29a1cd8dfebf420691c4c9a0e832e2fae5a526
       - name: Setup Node
